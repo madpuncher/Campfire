@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		0257CA9126C9265300A0E819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CA9026C9265300A0E819 /* AppDelegate.swift */; };
 		0257CA9326C9265300A0E819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CA9226C9265300A0E819 /* SceneDelegate.swift */; };
-		0257CA9526C9265300A0E819 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CA9426C9265300A0E819 /* ContentView.swift */; };
+		0257CA9526C9265300A0E819 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CA9426C9265300A0E819 /* TabBarView.swift */; };
 		0257CA9726C9265500A0E819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0257CA9626C9265500A0E819 /* Assets.xcassets */; };
 		0257CA9A26C9265500A0E819 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0257CA9926C9265500A0E819 /* Preview Assets.xcassets */; };
 		0257CA9D26C9265500A0E819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0257CA9B26C9265500A0E819 /* LaunchScreen.storyboard */; };
+		0257CAA526C926A700A0E819 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CAA426C926A700A0E819 /* TabButton.swift */; };
+		0257CAA726C926DA00A0E819 /* ToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CAA626C926DA00A0E819 /* ToDoView.swift */; };
+		0257CAAB26C9276700A0E819 /* Color + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CAAA26C9276700A0E819 /* Color + Extensions.swift */; };
+		0257CAAD26C92AA800A0E819 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CAAC26C92AA800A0E819 /* ContentView.swift */; };
+		0257CAB126C937EE00A0E819 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CAB026C937EE00A0E819 /* Task.swift */; };
+		0257CAB526C9398800A0E819 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0257CAB426C9398800A0E819 /* TaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0257CA8D26C9265300A0E819 /* Campfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campfire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0257CA9026C9265300A0E819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0257CA9226C9265300A0E819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0257CA9426C9265300A0E819 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0257CA9426C9265300A0E819 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		0257CA9626C9265500A0E819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0257CA9926C9265500A0E819 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0257CA9C26C9265500A0E819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0257CA9E26C9265500A0E819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0257CAA426C926A700A0E819 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		0257CAA626C926DA00A0E819 /* ToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoView.swift; sourceTree = "<group>"; };
+		0257CAAA26C9276700A0E819 /* Color + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Extensions.swift"; sourceTree = "<group>"; };
+		0257CAAC26C92AA800A0E819 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0257CAB026C937EE00A0E819 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		0257CAB426C9398800A0E819 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +70,10 @@
 			children = (
 				0257CA9026C9265300A0E819 /* AppDelegate.swift */,
 				0257CA9226C9265300A0E819 /* SceneDelegate.swift */,
-				0257CA9426C9265300A0E819 /* ContentView.swift */,
+				0257CAAF26C937DF00A0E819 /* Models */,
+				0257CAAE26C9367300A0E819 /* Views */,
+				0257CAA826C9272E00A0E819 /* Supporting */,
+				0257CAA926C9275200A0E819 /* Extensions */,
 				0257CA9626C9265500A0E819 /* Assets.xcassets */,
 				0257CA9B26C9265500A0E819 /* LaunchScreen.storyboard */,
 				0257CA9E26C9265500A0E819 /* Info.plist */,
@@ -73,6 +88,65 @@
 				0257CA9926C9265500A0E819 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0257CAA826C9272E00A0E819 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				0257CA9426C9265300A0E819 /* TabBarView.swift */,
+				0257CAA426C926A700A0E819 /* TabButton.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		0257CAA926C9275200A0E819 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0257CAAA26C9276700A0E819 /* Color + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0257CAAE26C9367300A0E819 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0257CAAC26C92AA800A0E819 /* ContentView.swift */,
+				0257CAB226C938A300A0E819 /* ToDo */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0257CAAF26C937DF00A0E819 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0257CAB326C938AE00A0E819 /* ToDo */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0257CAB226C938A300A0E819 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				0257CAA626C926DA00A0E819 /* ToDoView.swift */,
+				0257CAB626C9399400A0E819 /* HelperView */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		0257CAB326C938AE00A0E819 /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				0257CAB026C937EE00A0E819 /* Task.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		0257CAB626C9399400A0E819 /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				0257CAB426C9398800A0E819 /* TaskView.swift */,
+			);
+			path = HelperView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +219,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0257CAB526C9398800A0E819 /* TaskView.swift in Sources */,
+				0257CAB126C937EE00A0E819 /* Task.swift in Sources */,
 				0257CA9126C9265300A0E819 /* AppDelegate.swift in Sources */,
+				0257CAA526C926A700A0E819 /* TabButton.swift in Sources */,
+				0257CAAD26C92AA800A0E819 /* ContentView.swift in Sources */,
 				0257CA9326C9265300A0E819 /* SceneDelegate.swift in Sources */,
-				0257CA9526C9265300A0E819 /* ContentView.swift in Sources */,
+				0257CAAB26C9276700A0E819 /* Color + Extensions.swift in Sources */,
+				0257CA9526C9265300A0E819 /* TabBarView.swift in Sources */,
+				0257CAA726C926DA00A0E819 /* ToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +371,7 @@
 				DEVELOPMENT_TEAM = SAY4Y2DWXX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Campfire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +379,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tengizov.Campfire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +393,7 @@
 				DEVELOPMENT_TEAM = SAY4Y2DWXX;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Campfire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +401,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tengizov.Campfire;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
